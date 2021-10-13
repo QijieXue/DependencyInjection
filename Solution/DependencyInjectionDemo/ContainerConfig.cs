@@ -21,8 +21,6 @@ namespace DependencyInjectionDemo
             builder.RegisterType<DataAccess>().As<IDataAccess>();
 
             return builder.Build();
-        }
-
-        
+        }        
     }
 }
